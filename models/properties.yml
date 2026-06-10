@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: bronze_listings
+    description: "Bronze layer listings view/table"
+    config:
+      materialized: table
+  - name: bronze_bookings 
+    description: "Bronze layer bookings view/table"
+    config:
+      materialized: table
+  - name: bronze_hosts
+    description: "Bronze layer hosts view/table"
+    config:
+      materialized: table
